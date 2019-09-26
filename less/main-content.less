@@ -723,6 +723,7 @@
 		.button.large {
 			font-size: 1.5em;
 			padding: 0.75em 1.5em 0.75em 1.5em;
+			margin: 1em;
         }
 
         @media screen and (max-width: 736px) {
@@ -772,7 +773,10 @@
             }
             #page-wrapper > section {
                 margin-bottom: 0;
-            }
+			}
+			#aboutpage-wrapper > section {
+				margin-bottom: 0;
+			}
             #main {
                 position: relative;
                 background: #f7f7f7 url("images/bg02.png");
@@ -793,4 +797,27 @@
         
                 #main .major h2 {
                     background: #f7f7f7 url("images/bg02.png");
-                }
+				}
+				
+				//about-page
+				#about-main {
+					position: relative;
+					background: #f7f7f7 url("images/bg02.png");
+					padding: 4em 0 4em 0;
+				}
+			
+					#about-main:before {
+						content: '';
+						position: absolute;
+						top: 0;
+						left: 0;
+						width: 100%;
+						background: url("images/bg01.png");
+						background-size: 100% 100%;
+						z-index: 0;
+						opacity: 0.1;
+					}
+			
+					#about-main .major h2 {
+						background: #f7f7f7 url("images/bg02.png");
+					}

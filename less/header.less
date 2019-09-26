@@ -184,3 +184,145 @@
 
 		
         }
+
+        //ABOUT Page
+
+        #aboutheader {
+            position: relative;
+            background: #ffffff;
+            border-bottom: solid 1px #ccc;
+            padding: 5em 0 4em 0;
+            text-align: center;
+        }
+        
+            #aboutheader h1 {
+                color: #252122;
+                font-weight: 900;
+                font-size: 2.5em;
+                letter-spacing: -0.035em;
+                line-height: 1;
+            }
+        
+        /* Nav */
+        
+        #aboutnav {
+            margin: 2.5em 0 0 0;
+        }
+        
+            #aboutnav > ul {
+                margin: 0;
+            }
+        
+                #aboutnav > ul > li {
+                    display: inline-block;
+                    font-style: italic;
+                    margin: 0 0.35em 0 0.35em;
+                }
+        
+                    #aboutnav > ul > li > ul {
+                        display: none;
+                    }
+        
+                    #aboutnav > ul > li > a {
+                        border-radius: 5px;
+                        color: #5d5d5d;
+                        text-decoration: none;
+                        padding: 0.6em 1.2em 0.6em 1.2em;
+                        -moz-transition: background-color .25s ease-in-out;
+                        -webkit-transition: background-color .25s ease-in-out;
+                        -ms-transition: background-color .25s ease-in-out;
+                        transition: background-color .25s ease-in-out;
+                        outline: 0;
+                    }
+        
+                    #aboutnav > ul > li:hover > a, #nav > ul > li.active > a {
+                        background: #f3f3f3;
+                    }
+        
+                    #aboutnav > ul > li.current > a {
+                        background: #72d331;
+                        color: #fff !important;
+                        font-weight: 700;
+                    }
+
+                     /* Banner */
+
+	#about-banner {
+		background: rgba(244, 215, 204, 0.842) url("../../images/pic01.jpg");
+		background-position: center center;
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+		text-align: center;
+		position: relative;
+		padding: 8em 0;
+		margin: 4em 0 0 0;
+	}
+
+		#about-banner header {
+			background-color: rgba(34, 30, 31, 0.98);
+			display: inline-block;
+			padding: 2.5em 5em;
+			border-radius: 5px;
+		}
+
+			#about-banner header h2 {
+				color: #fff;
+				font-weight: 700;
+				font-size: 2.5em;
+				margin: 0 0 0.65em 0;
+			}
+
+			#about-banner header p {
+				color: #72d331;
+				padding: 0;
+				font-style: normal;
+				margin: 0;
+				font-size: 1.5em;
+			}
+
+            @media screen and (max-width: 736px) {
+                #aboutheader {
+                    text-align: center;
+                    padding: 2em 0;
+                }
+    
+                    #aboutheader h1 {
+                        color: #252122;
+                        font-weight: 900;
+                        font-size: 1.75em;
+                        letter-spacing: -0.035em;
+            }
+            #about-banner {
+				padding: 6em 0;
+				margin: 2em 0 0 0;
+			}
+
+				#about-banner header {
+					padding: 1.5em 1em 1.5em 1em;
+					display: block;
+					border-radius: 0;
+				}
+
+					#about-banner header h2 {
+						font-size: 1.5em;
+						line-height: 1.5em;
+						margin: 0 0 0.25em 0;
+					}
+
+					#about-banner header p {
+						font-size: 1.2em;
+                    }
+                    section, article {
+                        margin-bottom: 20px;
+                    }
+        
+                    header {
+                        margin: 0 0 1em 0;
+                    }
+        
+                    footer {
+                        margin: 2em 0 0 0;
+                    }
+
+		
+        }
